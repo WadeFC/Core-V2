@@ -4,7 +4,22 @@
 
 - Clone the repository
 - Create a new branch (Always work from a personal branch)
-- NEVER EVER PUSH TO MAIN BRANCH
+- Pleaser NEVER EVER PUSH TO MAIN BRANCH DIRECTLY, always create a PR
+- Please do not merge before a review
+
+## Branches
+
+Please do not work on any of these branches directly:
+- Main is for production environment - 
+- Dev is for development environment
+- Staging is for staging environment
+
+We create personal branches based on the instruction below and then create PRs to dev branch.
+When a feature works on our personal branch, we create a PR to dev.
+After the PR has been reviewed, it should be merged to dev
+After completing on a group of related features on dev,  we can then create a PR to staging and move them there after testing
+
+**We DO NOT merge to main until we have a stable version of the entire application, usually after a User Acceptance Test**
 
 ## **How We Name Branches:**
 - When writing a branch name, using hyphen (-) increases the readability of the name.
