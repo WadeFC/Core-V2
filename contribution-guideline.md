@@ -14,10 +14,11 @@ Please do not work on any of these branches directly:
 - Dev is for development environment
 - Staging is for staging environment
 
-We create personal branches based on the instruction below and then create PRs to dev branch.
-When a feature works on our personal branch, we create a PR to dev.
-After the PR has been reviewed, it should be merged to dev
-After completing on a group of related features on dev,  we can then create a PR to staging and move them there after testing
+### The Flow
+- We create personal branches based on the instruction below
+- When a feature works on our personal branch, we create a PR to dev.
+- After the PR has been reviewed, it should be merged to dev
+- After completing on a group of related features on dev,  we can then create a PR to staging and move them there after testing
 
 **We DO NOT merge to main until we have a stable version of the entire application, usually after a User Acceptance Test**
 
