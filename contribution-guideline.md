@@ -26,7 +26,7 @@ _______________________
 
 ### **Always commit changes in files separately**
 
-This approach makes it easier to isolate and fix problems and also makes it easier to review changes as each commit only contains changes to one file.
+This  approach makes it easier to isolate and fix problems and also makes it easier to review changes as each commit only contains changes to one file.
 
 Except in cases where changes to different files are related and should be committed together as a single unit of work. 
 
